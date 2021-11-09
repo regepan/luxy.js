@@ -20,6 +20,15 @@ Or just include the script in your page:
 <script src="path/to/luxy.js" charset="utf-8"></script>
 ```
 
+Or with webpack
+
+```js
+import luxy from "luxy.js";
+
+luxy.init();
+```
+
+
 Included luxy.js in your project and initialize:
 
 ```html
